@@ -42,6 +42,13 @@ dependencies {
 }
 ```
 
+### Uporaba LottieAnimationView
+
+![image](https://github.com/JakobKrajnc/PoraLottie/assets/117294464/996bfb85-89ef-4af4-8302-eb53d69a645c)
+
+
+
+
 ## Avtor
 
 Jakob Krajnc
