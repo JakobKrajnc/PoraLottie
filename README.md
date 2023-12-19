@@ -72,8 +72,51 @@ animationView.cancelAnimation()
 
 ![lottie_animation](https://github.com/JakobKrajnc/PoraLottie/assets/117294464/aefccb67-af75-4e43-948e-98feddd664a7)
 
+### Spreminjanje hitrosti
+
+-Lottie animacije podpirajo spreminjanje hitrosti predvajanja. To lahko storimo preko atributa ali programatično
+``` app:lottie_speed="100" ```
+
+ali
+
+``` animationView.speed = 100 ```
+
+![lottie_speed](https://github.com/JakobKrajnc/PoraLottie/assets/117294464/56cb0bc0-fdb5-4b0b-a5d0-5ad64d1a863b)
 
 
+### Ostali atributi
+
+Lottie ima še veliko drugih atributov, kot npr:
+- loop: Animacija se predvaja v nedogled
+- scale: Kontrolira velikost animacije
+- progress: Nastavi točko, kjer se animacija začne predvajati (med 0 in 1)
+- colorFilter: Nastavi barvni filter celotni animaciji, podano v hex formatu
+
+### Poslušalci dogodkov
+
+- Lottie animacije lahko sprožijo dogodke, ki jih lahko v aplikaciji ujamemo. To nam omogoča, da lahko v aplikaciji ujamemo stanje animacije in se nanj odzovemo oz. v aplikaicji nekaj storimo.
+- Nekaj dogodkov, ki jih lahko ujamemo: load, error, play, pause, stop, loop, complete, frame
+
+- Primer v kodi
+``` 
+animationView.addAnimatorListener(object : Animator.AnimatorListener {
+            override fun onAnimationStart(animation: Animator) {
+                Log.d("Lottie", "Animation started")
+            }
+
+            override fun onAnimationEnd(animation: Animator) {
+                Log.d("Lottie", "Animation ended")
+            }
+
+            override fun onAnimationCancel(animation: Animator) {
+                Log.d("Lottie", "Animation cancelled")
+            }
+
+            override fun onAnimationRepeat(animation: Animator) {
+                Log.d("Lottie", "Animation repeated")
+            }
+        })
+```
 ## Avtor
 
 Jakob Krajnc
