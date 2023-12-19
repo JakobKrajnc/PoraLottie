@@ -31,15 +31,9 @@ Do decembra 2023 je Lottie na GitHubu označilo več kot 30.000 uporabnikov.
 
 Lottie aktivno vzdržuje Airbnb, zadnji commit je bil narejen 15.12.2023.
 
-## Posnetki zaslona
+## Primer uporabe
 
-(Dodajte posnetke zaslona vaše aplikacije tukaj)
-
-## Začetek
-
-(Navodila, kako uporabljati vašo aplikacijo)
-
-## Avtorj
+## Avtor
 
 Jakob Krajnc
 
