@@ -34,6 +34,12 @@ Lottie aktivno vzdržuje Airbnb, zadnji commit je bil narejen 15.12.2023.
 
 ## Primer uporabe
 
+### Vključitev v projekt
+
+```  dependencies {
+  implementation 'com.airbnb.android:lottie:$lottieVersion'
+} ```
+
 ## Avtor
 
 Jakob Krajnc
