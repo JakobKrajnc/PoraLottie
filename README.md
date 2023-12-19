@@ -75,6 +75,7 @@ animationView.cancelAnimation()
 ### Spreminjanje hitrosti
 
 -Lottie animacije podpirajo spreminjanje hitrosti predvajanja. To lahko storimo preko atributa ali programatično
+
 ``` app:lottie_speed="100" ```
 
 ali
