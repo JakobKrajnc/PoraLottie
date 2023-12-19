@@ -13,6 +13,7 @@ Lottie je knjižnica za Android in iOS, ki parsa animacije Adobe After Effects, 
 - Lottie animacije so veliko manjše kot GIF ali MP4, zaradi česar se posledično nalagajo dosti hitreje
 - Animacije so skalabilne, saj temeljijo na vektorski strukturi, torej so zelo uporabne za aplikacije, ki se prikazujejo na zaslonih različnih velikosti
 - So interakivne kar pomeni da lahko razvijalci manipulirajo z elementi animacije in ustvarijo interaktivne animacije, ki se odzivajo uporabniku(klikanje, scrollanje, lebdenje)
+- Dinamična hitrost predvajanje in spreminjanje barv dela animacije
 - Na spletu lahko najdemo veliko zastonj animacij, kot na primer [LottieFiles](https://lottiefiles.com/)
 
 ### Slabosti
@@ -42,10 +43,34 @@ dependencies {
 }
 ```
 
-### Uporaba LottieAnimationView
+### Nalaganje animacije
+
+- Animacije lahko nalagamo iz direktorijev res/raw ali assets/
+- Nalaganje iz res/raw
+  ``` app:lottie_rawRes="@raw/hello_world" ```
+- Nalaganje iz assets/
+  ``` app:lottie_fileName="hello_world.json" ```
 
 ![image](https://github.com/JakobKrajnc/PoraLottie/assets/117294464/996bfb85-89ef-4af4-8302-eb53d69a645c)
 
+### Predvajanje animacije
+
+- Animacijo lahko predvajamo z nastavljanjem atributa autoPlay
+``` app:lottie_autoPlay="true" ```
+- Ali pa programatično
+```
+val animationView = findViewById<LottieAnimationView>(R.id.animation_view)
+animationView.playAnimation()
+```
+
+-Animacijo lahko tudi pavziramo, nadaljujemo ali resetiramo
+```
+animationView.pauseAnimation()
+animationView.resumeAnimation()
+animationView.cancelAnimation()
+```
+
+![lottie_animation](https://github.com/JakobKrajnc/PoraLottie/assets/117294464/aefccb67-af75-4e43-948e-98feddd664a7)
 
 
 
