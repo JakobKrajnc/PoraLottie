@@ -10,15 +10,15 @@ Lottie je knjižnica za Android in iOS, ki parsa animacije Adobe After Effects, 
 
 ### Prednosti
 
--Lottie animacije so veliko manjše kot GIF ali MP4, zaradi česar se posledično nalagajo dosti hitreje
--Animacije so skalabilne, saj temeljijo na vektorski strukturi, torej so zelo uporabne za aplikacije, ki se prikazujejo na zaslonih različnih velikosti
--So interakivne kar pomeni da lahko razvijalci manipulirajo z elementi animacije in ustvarijo interaktivne animacije, ki se odzivajo uporabniku(klikanje, scrollanje, lebdenje)
--Na spletu lahko najdemo veliko zastonj animacij, kot na primer [LottieFiles](https://lottiefiles.com/)
+- Lottie animacije so veliko manjše kot GIF ali MP4, zaradi česar se posledično nalagajo dosti hitreje
+- Animacije so skalabilne, saj temeljijo na vektorski strukturi, torej so zelo uporabne za aplikacije, ki se prikazujejo na zaslonih različnih velikosti
+- So interakivne kar pomeni da lahko razvijalci manipulirajo z elementi animacije in ustvarijo interaktivne animacije, ki se odzivajo uporabniku(klikanje, scrollanje, lebdenje)
+- Na spletu lahko najdemo veliko zastonj animacij, kot na primer [LottieFiles](https://lottiefiles.com/)
 
 ### Slabosti
 
--Lottie animacije so kompatibilne samoe z Adobe After Effect, kar pomeni, da smo glede ustvarjanje animacij omejeni
--Animacije se ne prenašajo med ekrani, torej ne moremo ustvariti animacij za tranzicijo
+- Lottie animacije so kompatibilne samoe z Adobe After Effect, kar pomeni, da smo glede ustvarjanje animacij omejeni
+- Animacije se ne prenašajo med ekrani, torej ne moremo ustvariti animacij za tranzicijo
 
 ## Licenca
 
